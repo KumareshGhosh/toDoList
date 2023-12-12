@@ -1,0 +1,8 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <div class={containerClass}>
+        <span class="slds-text-heading_label">{todoName}</span>
+        <lightning-button-icon icon-name={iconName} class="slds-p-horizontal_medium" onclick={updateHandler} title="Updated Todo"></lightning-button-icon>
+        <lightning-button-icon icon-name="utility:delete" onclick={deleteHandler} title="Delete todo"></lightning-button-icon>                  
+    </div>
+</template>
